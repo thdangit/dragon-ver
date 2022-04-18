@@ -1,0 +1,163 @@
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.carousel_container {
+  background-color: #42b1ea;
+  padding-top: 90px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.carousel {
+  width: 96%;
+  margin: 0 auto;
+}
+.carousel_top {
+  text-align: center;
+  padding: 21px 0 55px;
+  text-align: center;
+  font-family: "Pieces of Eight";
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 33px;
+}
+.carousel_top h1 {
+  color: #fff;
+  font-size: 127px;
+  line-height: 1;
+  letter-spacing: 10px;
+}
+.carousel_top h2 {
+  color: #fff;
+  font-size: 77px;
+  line-height: 1;
+}
+.cart_item {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.cart_item h2 {
+  font-size: 58px;
+  color: #fff;
+  font-weight: 800;
+}
+
+img.item-img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 200px;
+}
+.carousel_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel_bottom {
+  text-align: center;
+}
+.title_content h1 {
+  letter-spacing: 15px;
+  margin: 6px 0;
+}
+.title_content span.R {
+  color: #ff0000;
+}
+.title_content span.O {
+  color: #ffa200;
+}
+
+.title_content span.V {
+  color: #b400ff;
+}
+.cart_item p.educateText {
+  max-width: 395px;
+  margin: 10px auto 20px;
+  height: 180px;
+  font-size: 18px;
+  color: #231f20;
+  font-weight: 500;
+  line-height: 1.3;
+  font-family: "Montserrat", sans-serif;
+}
+.carousel_bottom {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 500px;
+}
+.carousel_bottom span {
+  color: #fff;
+  font-size: 58px;
+  text-transform: uppercase;
+  font-family: "Pieces of Eight";
+  line-height: 1;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.9px) {
+  .title_top span {
+    font-size: 33px;
+  }
+  .title_content {
+    margin: 10px 0;
+  }
+  .title_content h1 {
+    font-size: 24px;
+  }
+  .title_content h2 {
+    font-size: 32px;
+  }
+  .cart_item h2 {
+    font-size: 36px;
+  }
+  .item-img {
+    padding-bottom: 50px;
+  }
+  .cart_item {
+    margin-bottom: 40px;
+  }
+  .cart_item a img {
+    max-width: 200px;
+  }
+  .cart_item p.educateText {
+    height: auto;
+  }
+  .carousel_bottom span {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 576px) {
+  .title_content h1 {
+    font-size: 53px;
+  }
+  .title_content h2 {
+    font-size: 48px;
+  }
+  .carousel_content img.item-img {
+    max-width: 400px;
+  }
+  .title_content h1 {
+    letter-spacing: 10px;
+    margin: 15px 0;
+  }
+  .item-img {
+    padding-bottom: 50px;
+  }
+  .title_content h2 {
+    font-size: 48px;
+  }
+  .cart_item {
+    margin-bottom: 30px;
+  }
+  .cart_item h2 {
+    font-size: 36px;
+  }
+  .cart_item p.educateText {
+    height: auto;
+  }
+  .carousel_bottom span {
+    font-size: 55px;
+  }
+}
