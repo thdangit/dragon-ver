@@ -5,7 +5,7 @@ function Header() {
     <div className="header_container">
       <div className="header">
         <nav class="navbar navbar-expand-lg  container_nav">
-          <a class="navbar-brand container_logo" href={() => false}>
+          <a class="navbar-brand container_logo" href="#carousel">
             <img className="logo" src={logo} alt="" />
           </a>
           <button

@@ -42,7 +42,9 @@ img {
   color: #fff;
   font-weight: 800;
 }
-
+.cart_item a img {
+  cursor: pointer;
+}
 img.item-img {
   width: 100%;
   height: auto;

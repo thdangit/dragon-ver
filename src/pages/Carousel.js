@@ -7,7 +7,7 @@ import btnEdu from "../imgs/dragon-btn.png";
 import btnLearn from "../imgs/learn-btn.png";
 function Carousel() {
   return (
-    <div className="carousel_container">
+    <div className="carousel_container" id="carousel">
       <div className="carousel">
         <div className="carousel_top">
           <div className="title_top">
@@ -37,7 +37,7 @@ function Carousel() {
               The Basics Like Numbers, And The Alphabet, Will ALWAYS Be Free.
             </p>
             <a href={() => false} target="">
-              <img src={btnEdu} alt="btn" class="fluid" />
+              <img src={btnEdu} alt="btn" class="" />
             </a>
           </div>
           <img
@@ -60,7 +60,7 @@ function Carousel() {
               Aunt Or Uncle And Get Your Custom Video Today.
             </p>
             <a href={() => false} target="">
-              <img src={btnLearn} alt="btn" class="fluid" />
+              <img src={btnLearn} alt="btn" class="" />
             </a>
           </div>
         </div>
